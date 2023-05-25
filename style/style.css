@@ -1,0 +1,102 @@
+@font-face{
+    font-family: montserrat;
+    src: url(../fonts/Montserrat-Regular.ttf);
+}
+
+body{
+    font-size: 14px;
+    max-width: 1920px;
+    background-color: #F9F6F1;
+    color: black;
+}
+a{
+    text-decoration: none;
+    color: #212121;
+}
+ul{
+    list-style: none;
+    padding: 0;
+}
+.header{
+    border-bottom: 1px solid black;
+    padding: 20px 0;
+}
+.container{
+    max-width: 1110px;
+}
+.item-block{
+    display: flex;
+}
+.list-item:not(:last-child){
+    margin-right: 35px;
+}
+.text-logo{
+    font-family: montserrat;
+    font-size: 24px;
+    font-weight: 700;
+    margin-left: 20px;
+    text-transform: capitalize;
+}
+.link{
+    letter-spacing: 0.03em;
+    line-height:1.21;
+    font-weight: 500;
+}
+.img-vector{
+    max-width: 46px;
+    margin-left: 15px;
+}
+.title-1{
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 67px;
+    letter-spacing: 0.04em;
+    color: #000000;
+    margin-bottom: 55px;
+}
+.text{
+   font-weight: 400;
+   font-size: 30px;
+   line-height: 37px;
+   letter-spacing: 0.02em; 
+   margin-bottom: 35px;
+}
+.price{
+font-weight: 700;
+font-size: 24px;
+line-height: 29px;
+letter-spacing: 0.05em;
+text-decoration-line: line-through;
+text-transform: uppercase;
+}
+.sale-price{
+    font-weight: 700;
+font-size: 42px;
+line-height: 51px;
+text-align: right;
+letter-spacing: 0.02em;
+text-transform: uppercase;
+
+color: #D84033;
+}
+.row-padding{
+    padding: 130px 0;
+}
+.btn-link{
+    display: block;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 18px 30px;
+}
+.btn-link:hover{
+    border: 1px solid black;
+    color: #212121;
+    border-radius: 3px;
+}
+.btn{
+    background-color:#D7B399;
+}
